@@ -1,0 +1,5 @@
+ALTER TABLE my_contacts 
+ADD COLUMN phone VARCHAR(10) AFTER color;
+
+ALTER TABLE my_contacts 
+ADD COLUMN phone VARCHAR(10) FIRST;

@@ -1,0 +1,2 @@
+ALTER TABLE project_list
+MODIFY COLUMN proj_desc VARCHAR(120);
